@@ -11,7 +11,7 @@ function TextInputWithFocusButton(props) {
         <>
             <input ref={inputElem} type="text" />
             <button onClick={onButtonClick}>Focus the input</button>
-        </>
+        </> 
     );
 }
 export default TextInputWithFocusButton;

@@ -1,19 +1,12 @@
 
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import NotificationList from './chapter_06/NotificationList';
-import Counter from './chapter_07/ex2';
-import TextInputWithFocusButton from './chapter_07/ex2';
-import Accommodate from './chapter_07/Accommodate';
-
-
-
-
+import App from './propsDrilling/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
-    <Accommodate />
+    <App />
 
 );
 
